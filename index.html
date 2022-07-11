@@ -178,12 +178,12 @@
                     <!-- service content -->
                     <h3>Technology Consulting Services</h3>
                     <p>Keystone offers industry's best talents for off-site, on-site or hybrid working assignments. Our expertise spans a wide range of SAP ERP platforms.</p>
-<p>SAP Supply chain solutions </p>
-<p>SAP WM to SAP EWM Upgrade </p>
-<p>SAP TM migration ( S/4 HANA 2020 from SAP TM 9.x )</p>
-<p>SAP TM with S/4 HANA</p>
-<p>SAP GTS</p>
-<p>SAP EWM. </p>
+                        <ul style="list-style: square;"><li> <p>SAP Supply chain solutions</p></li> 
+                        <li><p>SAP WM to SAP EWM Upgrade</p></li>  
+                        <li><p>SAP TM migration ( S/4 HANA 2020 from SAP TM 9.x )</p></li> 
+                        <li><p>SAP TM with S/4 HANA</p></li> 
+                        <li><p>SAP GTS</p></li>
+                        <li><p>SAP EWM</p></li>   </ul> 
                 </div>
             </div>
             <!-- single service end -->
@@ -427,7 +427,24 @@ Surender_20 -->
 
 <!-- Code end -->
 
-<!-- All js file -->
+<!-- All js file & Code.-->
+<script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
 <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
 <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
 <script src="assets/js/slick.min.js"></script>

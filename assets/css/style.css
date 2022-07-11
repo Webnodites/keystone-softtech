@@ -505,21 +505,23 @@ section.inner-banner-wrapper {
 .service-section-wrapper {
 	background-size: 15px 15px;
 	background-color: var(--bg-secondary);
-	padding-bottom: 70px;
+	padding-bottom: 30px;
 	padding-top: 40px;
 }
 
 .single-service {
 	position: relative;
 	z-index: 1;
-	padding: 40px 30px;
-	margin-bottom: 30px;
+	padding: 15px 40px;
+	margin-bottom: 10px;
 	border: 1px solid #d9dbe9;
 	transition: all ease 0.7s;
 	-webkit-transition: all ease 0.7s;
 	-moz-transition: all ease 0.7s;
 	-ms-transition: all ease 0.7s;
 	-o-transition: all ease 0.7s;
+	max-width: 100%;
+	height: 530px;
 }
 
 .single-service:hover {
