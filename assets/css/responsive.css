@@ -19,7 +19,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
     section.inner-banner-wrapper {
-        padding-top: 265px;
+        padding-top: 150px;
     }
 
     .about-us-content {
@@ -243,6 +243,10 @@
         padding: 20px 12px;
     }
 
+    .about-us-image{
+        margin-top: 0rem !important;
+    }
+
 
     .video-area-wrap {
         min-height: 300px;
@@ -343,8 +347,8 @@
     }
 
     .about-us-section {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
 
@@ -493,8 +497,8 @@
 
     .inner-banner-content h1 {
         font-size: 32px;
-        padding-bottom: 30px;
-        margin-bottom: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .inner-banner-content p {
@@ -503,7 +507,7 @@
     }
 
     section.inner-banner-wrapper {
-        padding-top: 170px;
+        padding-top: 150px;
         min-height: 500px;
     }
 
@@ -716,6 +720,7 @@
 
     .inner-banner-content p {
         padding: 0;
+        margin-bottom: 2rem;
     }
 
     .comment-author-img {
@@ -766,6 +771,20 @@
         max-width: 100%;
     }
 
+
+}
+/* iPAD */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .about-us-image{
+        margin-top: 0rem !important;
+    }
+    .about-us-section {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
 }
 
 .single-team-slider .team-slider-img img {

@@ -404,8 +404,8 @@ section.banner-area:before {
 .inner-banner-content h1 {
 	font-size: 52px;
 	font-weight: 500;
-	padding-bottom: 20px;
-	margin-bottom: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
 	position: relative;
 }
 
@@ -423,19 +423,23 @@ section.banner-area:before {
 .inner-banner-content p {
 	font-size: 18px;
 	line-height: 32px;
-	margin-bottom: 0;
-	padding: 0 10%;
+	margin-bottom: 4rem;
+
+}
+
+.about-us-image{
+margin-top: 8rem;
 }
 
 section.inner-banner-wrapper {
-	padding-top: 265px;
+	padding-top: 150px;
 }
 
 
 /* About us section */
 .about-us-section {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 
@@ -1356,7 +1360,7 @@ section.counter-section-wrapper::after {
 /* footer css */
 footer {
 	background-color: #1a1a1a;
-	padding-bottom: 30px;
+	/* padding-bottom: 0px; */
 	padding-top: 50px;
 }
 

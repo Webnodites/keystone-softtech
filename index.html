@@ -15,6 +15,43 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <style>
+        
+        /* The Modal (background) */
+        .modal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Sit on top */
+          padding-top: 100px; /* Location of the box */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+        
+        /* Modal Content */
+        .modal-content {
+          background-color: #414141;
+          margin: auto;
+          padding: 10px;
+          border: 1px solid #888;
+          width: 25%;
+        }
+        
+        /* The Close Button */
+        .close {
+          color: #aaaaaa;
+          float: right;
+          font-size: 28px;
+          font-weight: bold;
+        }
+        
+       
+        </style>
 </head> 
 
 <body>
@@ -105,7 +142,7 @@
     <div class="container">
         <div class="row flex-row-reve flex-row-reverse">
             <!-- about us slider -->
-            <div class="col-lg-7">
+            <div class="col-lg-5">
                 <div class="about-us-slider">
                     <img src="assets/img/about-img-1.jpg" alt="About us" class="img-fluid">
              
@@ -113,7 +150,7 @@
             </div>
             <!-- about us slider end -->
             <!-- about us content -->
-            <div class="col-lg-5">
+            <div class="col-lg-7">
                 <div class="about-us-content">
                     <h2>About <span>US</span></h2>
 
@@ -172,36 +209,47 @@
             <!-- single service -->
             <div class="col-md-6 col-lg-4">
                 <div class="single-service">
-                    <a href="#" class="link-overly"><span class="d-none">overly link</span></a>
+                    <!-- <a href="#" class="link-overly"><span class="d-none">overly link</span></a> -->
                     <!-- service icon -->
                     <span><i class="fas fa-desktop"></i></span>
                     <!-- service content -->
                     <h3>Technology Consulting Services</h3>
-                    <p>Keystone offers industry's best talents for off-site, on-site or hybrid working assignments. Our expertise spans a wide range of SAP ERP platforms.</p>
-                        <ul style="list-style: square;"><li> <p>SAP Supply chain solutions</p></li> 
-                        <li><p>SAP WM to SAP EWM Upgrade</p></li>  
-                        <li><p>SAP TM migration ( S/4 HANA 2020 from SAP TM 9.x )</p></li> 
-                        <li><p>SAP TM with S/4 HANA</p></li> 
-                        <li><p>SAP GTS</p></li>
-                        <li><p>SAP EWM</p></li>   </ul> 
+                    <p>Keystone offers industry's best talents for off-site, on-site or hybrid working assignments. Our expertise spans a wide range of SAP ERP platforms.
+                        
+                    </p>
+                    <button id="myBtn"><p>Read More</p></button> 
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <!-- <span class="close">&times;</span> -->
+                            <ul><li> <p>SAP Supply chain solutions</p></li> 
+                            <li><p>SAP WM to SAP EWM Upgrade</p></li>  
+                            <li><p>SAP TM migration ( S/4 HANA 2020 from SAP TM 9.x )</p></li> 
+                            <li><p>SAP TM with S/4 HANA</p></li> 
+                            <li><p>SAP GTS</p></li>
+                            <li><p>SAP EWM</p></li> </ul> 
+                        </div>
+                      
+                    </div>
                 </div>
             </div>
             <!-- single service end -->
             <!-- single service -->
             <div class="col-md-6 col-lg-4">
                 <div class="single-service">
-                    <a href="#" class="link-overly"><span class="d-none">overly link</span></a>
+                    <!-- <a href="#" class="link-overly"><span class="d-none">overly link</span></a> -->
                     <!-- service icon -->
                     <span><i class="fas fa-pen-nib"></i></span>
                     <!-- service content -->
                     <h3>Implementation</h3>
                     <p>We offer Implementation of standard SAP TM and EWM modules.We also help customize these solutions to meet client's needs. We deliver solutions for a wide range of integrations.</p>
-<p>SAP TM integration with SAP S/4 Hana ( standalone ) </p>
-<p>Embbedided TM and EWM</p>
-<p>SAP GTS</p>
-<p>SAP gATP</p>
-<p>SAP ATP</p>
-<p>SAP LBN </p>
+                    <ul><li><p>SAP TM integration with SAP S/4 Hana ( standalone ) </p></li></ul>
+                    <ul><li><p>Embbedided TM and EWM</p></li></ul>
+                    <ul><li><p>SAP GTS</p></li></ul>
+                    <ul><li><p>SAP gATP</p></li></ul>
+                    <ul><li><p>SAP ATP</p></li></ul>
+                    <ul><li><p>SAP LBN </p></li></ul>
                 </div>
             </div>
             <!-- single service end -->
@@ -217,7 +265,7 @@
             <!-- single service -->
             <div class="col-md-6 col-lg-4">
                 <div class="single-service">
-                    <a href="#" class="link-overly"><span class="d-none">overly link</span></a>
+                    <!-- <a href="#" class="link-overly"><span class="d-none">overly link</span></a> -->
                     <!-- service icon -->
                     <span><i class="fas fa-headset"></i></span>
                     <!-- service content -->
@@ -350,16 +398,17 @@ Surender_20 -->
             <div class="col-sm-6 col-lg-6">
                 <div class="single-footer-widget">
                                <div class="footer-logo">
-        
-                        <a href="#">
+                        <a href="index.html">
                             <img src="assets/img/logo.svg" alt="logo">
                         </a>
                     </div>
-                           <p> </P>
-<p> Keystone Softtech harnesses the power of SAP to present you with a wealth of services. Our business consultancy solutions include management, intelligence, resource planning and consolidation. Customised development services, human capital management, and support services are some of our specialities. Our SAP system support solutions include assistance with rollout, migration, upgrades, offshore assistance, hosting, and more. </p>
-                    
-                </div>
+                        <p> Keystone Softtech harnesses the power of SAP to present you with a wealth of services. 
+                            Our business consultancy solutions include management, intelligence, resource planning and consolidation. Customised development services, human capital management, and support services are some of our specialities. 
+                            Our SAP system support solutions include assistance with rollout, migration, upgrades, offshore assistance, hosting, and more. </p>
+                    </div>
             </div>
+
+
             <!-- single footer widget end -->
             <!-- single footer widget -->
             <div class="col-sm-4 col-lg-3">
@@ -389,62 +438,52 @@ Surender_20 -->
                         <h4>Social Links</h4>
                         <ul class="footer-social-list">
                             <li><a href="https://www.linkedin.com/company/keystone-softtech"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/keystone-softtech"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/keystone-softtech"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fab fa-instagram"></i></a></li>
                         </ul>
                         
                     </div>
                 </div>
             </div>
-            <!-- single footer widget end -->
-            <!-- single footer widget -->
-
-            <!-- start code comment Surender 20 
-
-<div class="col-sm-6 col-lg-3">
-                <div class="single-footer-widget">
-                    <div class="footer-widget-title">
-                        <h4>SUBSCRIBE</h4>
-                    </div>
-                    <p>Sit amet, consectetur adipisicing elit. Accusantium aut beatae ducimus maxime odit,
-                        similique?</p>
-                    <form action="#" class="footer-subscribe-form">
-                        <input type="text" placeholder="Your email address">
-                        <button type="submit"><i class="fas fa-location-arrow"></i></button>
-                    </form>
-                </div>
-            </div> surender 20  -->
-            <!-- single footer widget end -->
-        <!-- </div>
-    </div>-->
-</footer>
-
 
 <!-- footer copyright --> 
 <div class="footer-copyright text-center">
     <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> <span>Keystone Softtech, LLC</span> All Rights Reserved.</p>
 </div> 
 
+</footer>
+
 <!-- Code end -->
 
 <!-- All js file & Code.-->
 <script>
-    function myFunction() {
-      var dots = document.getElementById("dots");
-      var moreText = document.getElementById("more");
-      var btnText = document.getElementById("myBtn");
+    // Get the modal
+    var modal = document.getElementById("myModal");
     
-      if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more"; 
-        moreText.style.display = "none";
-      } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less"; 
-        moreText.style.display = "inline";
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
       }
     }
     </script>
+
 <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
 <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
 <script src="assets/js/slick.min.js"></script>
