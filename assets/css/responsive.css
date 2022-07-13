@@ -606,6 +606,9 @@
         flex-direction: column;
         align-items: center;
     }
+    .nav-menu{
+        display: block;
+    }
 
     nav ul.navbar li {
         width: 100%;

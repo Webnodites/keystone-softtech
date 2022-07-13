@@ -248,7 +248,7 @@ a.link-overly {
 /*logo*/
 .header-logo img {
 	width: 150px;
-	margin-right: 55em;
+	/* margin-right: 55em; */
 	margin-left: auto;
 }
 
@@ -292,18 +292,20 @@ header {
 
 .navbar{
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 	align-items: center;
 }
-
+.nav-menu{
+	display: flex;
+}
 .navbar-item{
 	list-style: none;
 	margin: 0.2rem;
 }
-.navbar-item:first-child{
+/* .navbar-item:first-child{
 	margin-right: 2rem;
 	margin-left: 2rem;
-}
+} */
 
 /* 
 ul.navbar li {
