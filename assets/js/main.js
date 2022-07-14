@@ -182,7 +182,7 @@
 
     $(".Modern-Slider").slick({
         autoplay:true,
-        autoplaySpeed:5000,
+        autoplaySpeed:10000,
         speed:600,
         slidesToShow:1,
         slidesToScroll:1,
@@ -190,12 +190,12 @@
         dots:false,
         pauseOnDotsHover:true,
         cssEase:'linear',
-        // fade:true,
+    // fade:true,
         draggable:false,
-        prevArrow: false,
-        nextArrow: false, 
-        // prevArrow:'<button class="PrevArrow"></button>',
-        // nextArrow:'<button class="NextArrow"></button>', 
+        // prevArrow:'<button class="PrevArrow"><i class="fa fa-angle-left fa-5x"></i></button>',
+        // nextArrow:'<button class="NextArrow"><i class="fa fa-angle-right fa-5x"></i></button>', 
+        prevArrow:'<i class=" PrevArrow fa fa-angle-left fa-5x"></i>',
+        nextArrow:'<i class="NextArrow fa fa-angle-right fa-5x"></i>', 
       });
 
 })(jQuery);

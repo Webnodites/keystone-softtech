@@ -2534,15 +2534,17 @@ a.rounded-btn:hover {
 	position: absolute;
 	top: 50%;
 	right: 0px;
-	width: 45px;
-	height: 45px;
-	background: rgba(0, 0, 0, .50);
+	width: 35px;
+	height: 35px;
+	/* background: rgba(0, 0, 0, .50); */
 	border: 0 none;
 	margin-top: -22.5px;
 	text-align: center;
-	font: 20px/45px FontAwesome;
+	/* font: 20px/45px FontAwesome; */
+	font-size: 35px;
 	color: #FFF;
 	z-index: 5;
+	cursor: pointer;
 }
 
 .Modern-Slider .NextArrow:before {
@@ -2553,15 +2555,17 @@ a.rounded-btn:hover {
 	position: absolute;
 	top: 50%;
 	left: 0px;
-	width: 45px;
-	height: 45px;
-	background: rgba(0, 0, 0, .50);
+	width: 35px;
+	height: 35px;
+	/* background: rgba(0, 0, 0, .50); */
 	border: 0 none;
 	margin-top: -22.5px;
 	text-align: center;
-	font: 20px/45px FontAwesome;
+	/* font: 20px/45px FontAwesome; */
+	font-size: 35px;
 	color: #FFF;
 	z-index: 5;
+	cursor: pointer;
 }
 
 .Modern-Slider .PrevArrow:before {
