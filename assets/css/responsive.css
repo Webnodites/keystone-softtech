@@ -177,6 +177,14 @@
         padding-top: 225px;
     }
 
+    .inner-banner-wrapper-contact {
+        min-height: 330px;
+    }
+
+    .inner-banner-wrapper-careers {
+        min-height: 330px;
+    }
+
     .banner-content h1 {
         font-size: 34px;
     }
@@ -226,6 +234,7 @@
 
 /* Extra small devices (portrait phones, less than 768px) */
 @media (max-width: 767.98px) {
+  
     .section-title h2 {
         font-size: 36px;
         line-height: 38px;
@@ -495,6 +504,13 @@
         padding-top: 160px;
     }
 
+    .inner-banner-wrapper-contact {
+        min-height: 330px;
+    }
+    .inner-banner-wrapper-careers {
+        min-height: 330px;
+    }
+
     .inner-banner-content h1 {
         font-size: 32px;
         padding-bottom: 20px;
@@ -698,6 +714,7 @@
 
     .main-header {
         padding: 10px;
+        padding-top: 0;
         padding-bottom: 0px;
         width: 100%;
     }
@@ -788,6 +805,8 @@
         padding-top: 50px;
         padding-bottom: 40px;
     }
+
+
 }
 
 .single-team-slider .team-slider-img img {

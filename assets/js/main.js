@@ -180,4 +180,22 @@
         $(this).parent().addClass('active')
     })
 
+    $(".Modern-Slider").slick({
+        autoplay:true,
+        autoplaySpeed:5000,
+        speed:600,
+        slidesToShow:1,
+        slidesToScroll:1,
+        pauseOnHover:false,
+        dots:false,
+        pauseOnDotsHover:true,
+        cssEase:'linear',
+        // fade:true,
+        draggable:false,
+        prevArrow: false,
+        nextArrow: false, 
+        // prevArrow:'<button class="PrevArrow"></button>',
+        // nextArrow:'<button class="NextArrow"></button>', 
+      });
+
 })(jQuery);
