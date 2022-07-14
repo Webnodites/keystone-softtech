@@ -240,6 +240,14 @@
         line-height: 38px;
     }
 
+    section.inner-banner-wrapper-about {
+        padding-top: 100px;
+    }
+
+    section.inner-banner-wrapper-service {
+        padding-top: 100px;
+    }
+
     .section-title::after {
         width: 220px;
     }
@@ -740,7 +748,6 @@
 
     .inner-banner-content p {
         padding: 0;
-        margin-bottom: 2rem;
     }
 
     .comment-author-img {
@@ -806,6 +813,9 @@
         padding-bottom: 40px;
     }
 
+    .single-service {
+        min-height: 420px; 
+    }
 
 }
 
