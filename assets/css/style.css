@@ -159,8 +159,11 @@ a {
 	width: 100%;
 	height: 100%;
 	background-size: 15px 15px;
-	background-image: -webkit-radial-gradient(rgba(77, 67, 92, .04) 15%, transparent 0), -webkit-radial-gradient(rgba(77, 67, 92, .04) 15%, transparent 0);
-	background-image: radial-gradient(rgba(77, 67, 92, .04) 15%, transparent 0), radial-gradient(rgba(77, 67, 92, .04) 15%, transparent 0);
+	/* background: #bdc3c7;  fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0b0707, #bdc3c7);  
+	background: linear-gradient(to right, #e2e2e2, #ffffff);
+	/* background-image: -webkit-radial-gradient(rgba(77, 67, 92, .04) 15%, transparent 0), -webkit-radial-gradient(rgba(77, 67, 92, .04) 15%, transparent 0);  */
+	/* background-image: radial-gradient(rgba(77, 67, 92, .04) 15%, transparent 0), radial-gradient(rgba(77, 67, 92, .04) 15%, transparent 0);*/
 }
 
 /* Section title */
@@ -319,14 +322,14 @@ ul.navbar li a {
 
 	padding: 10px 10px 10px 10px;
 	color: #f1f1f1;
-	font-weight: 400;
+	font-weight: 560;
 	font-family: 'Roboto', sans-serif;
 	position: relative;
 }
 
 .main-header {
-	background-color: #000000;
-	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	/* border-bottom: 1px solid #000000; */
 }
 
 ul.navbar li a:after {
@@ -558,7 +561,7 @@ section.inner-banner-wrapper-about {
 .about-us-content p {
 	font-size: 15px;
 	line-height: 25px;
-	margin-bottom: 15px;
+	margin-bottom: 0px;
 	color: var(--text-color)
 }
 
@@ -1601,7 +1604,7 @@ form.footer-subscribe-form button {
 .sticy_header {
 	width: 100%;
 	position: fixed;
-	background-color: #000000db;
+	background-color: transparent;
 	top: -125px;
 	transition: .4s;
 	z-index: 999999;
