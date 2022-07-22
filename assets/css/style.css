@@ -220,6 +220,16 @@ a {
 	text-transform: capitalize;
 }
 
+#heading-service{
+	text-align: left;
+	margin-bottom: 0.2rem;
+}
+
+
+#heading-service-p{
+	text-align: left;
+}
+
 .section-title p {
 	font-size: 15px;
 	color: #6f6f6f;
@@ -423,7 +433,11 @@ section.banner-area:before {
 }
 
 .inner-banner-wrapper-service {
-	min-height: 430px;
+	min-height: 330px;
+}
+
+.inner-banner-wrapper-about {
+	min-height: 330px;
 }
 
 .inner-banner-content h1 {
@@ -585,7 +599,7 @@ section.inner-banner-wrapper-about {
 	position: relative;
 	z-index: 1;
 	padding: 15px 40px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	border: 1px solid #d9dbe9;
 	transition: all ease 0.7s;
 	-webkit-transition: all ease 0.7s;
@@ -1604,7 +1618,7 @@ form.footer-subscribe-form button {
 .sticy_header {
 	width: 100%;
 	position: fixed;
-	background-color: transparent;
+	background: linear-gradient(to right, #4d4d4d, #6b6b6b);
 	top: -125px;
 	transition: .4s;
 	z-index: 999999;
