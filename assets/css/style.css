@@ -160,10 +160,11 @@ a {
 	height: 100%;
 	background-size: 15px 15px;
 	/* background: #bdc3c7;  fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #0b0707, #bdc3c7);  
-	background: linear-gradient(to right, #e2e2e2, #ffffff);
+	/* background: -webkit-linear-gradient(to right, #0b0707, #bdc3c7);  
+	background: linear-gradient(to right, #e2e2e2, #ffffff); */
 	/* background-image: -webkit-radial-gradient(rgba(77, 67, 92, .04) 15%, transparent 0), -webkit-radial-gradient(rgba(77, 67, 92, .04) 15%, transparent 0);  */
 	/* background-image: radial-gradient(rgba(77, 67, 92, .04) 15%, transparent 0), radial-gradient(rgba(77, 67, 92, .04) 15%, transparent 0);*/
+	background-color: white;
 }
 
 /* Section title */
@@ -265,11 +266,14 @@ a.link-overly {
 
 /*logo*/
 .header-logo img {
-	width: 150px;
+	width: 190px;
 	/* margin-right: 55em; */
-	margin-left: auto;
-}
+	/* margin-left: auto; */
 
+}
+.mobile-header-logo{
+	display: none;
+}
 
 header {
 	position: absolute;
@@ -284,13 +288,12 @@ header {
 	color: #fff;
 	font-size: 14px;
 	padding: 10px 0;
-	margin-right: 15px;
+	margin-right: 10px;
 }
 
 .top-header {
 	background-color: #ffffff20;
 	padding: 0;
-	border-bottom: 1px solid #ffffff10;
 }
 
 .top-header .modern-btn {
@@ -341,11 +344,13 @@ ul.navbar li a {
 	font-family: 'Roboto', sans-serif;
 	position: relative;
 	font-size: 18px;
+	margin-right: 8px;
 }
 
 .main-header {
 	background-color: transparent;
 	/* border-bottom: 1px solid #000000; */
+	padding: 30px 80px 0;
 }
 
 ul.navbar li a:after {
@@ -1193,9 +1198,15 @@ section.inner-banner-wrapper-about {
 
 /* contact us form design */
 section.contact-us-section-wrap {
-	padding-bottom: 110px;
+	padding-bottom: 70px ;
 	background-color: var(--bg-secondary);
-	padding-top: 40px;
+	padding-top: 30px;
+}
+
+section.careers-us-section-wrap {
+	padding-bottom: 60px ;
+	background-color: var(--bg-secondary);
+	padding-top: 30px;
 }
 
 .contact-us-wrap-box {
@@ -1610,7 +1621,7 @@ form.footer-subscribe-form button {
 	width: 100%;
 	background-color: #000000;
 	border-top: 1px solid #000000;
-	padding: 30px 0;
+	padding: 10px 0px 30px 0px;
 }
 
 .footer-copyright p {

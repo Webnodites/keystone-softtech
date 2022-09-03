@@ -80,7 +80,8 @@
     // nav active
     document.querySelector('.navbtn').addEventListener('click', function (e) {
         document.querySelector('nav').classList.toggle('active')
-        this.classList.toggle('active')
+        this.classList.toggle('active');
+        document.querySelector('.mobile-header-logo').classList.toggle('active');
     });
 
     $(window).scroll(function () { // this will work when your window scrolled.
@@ -102,16 +103,19 @@
             // Do scroll down code
             $('.sticy_header').removeClass('active')
             $('.navbtn').removeClass('show')
+            $('.mobile-header-logo').removeClass('show')
         } else {
             // Do scroll up code
             $('.sticy_header').addClass('active')
             $('.navbtn').addClass('show')
+            $('.mobile-header-logo').addClass('show')
         }
         lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
     }, false);
 
     if ($(window).scrollTop() > 5) {
         $('.navbtn').removeClass('show')
+        $('.mobile-header-logo').removeClass('show')
     }
 
     // filter
